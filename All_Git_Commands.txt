@@ -49,8 +49,8 @@ Stasing:
 #git stash			save local changes
 #git stash save <name>		save local changes with name
 #git stash list			show list of stashes 
-#git stash pop
-#git stash apply stashname
+#git stash pop	
+#git stash apply stashname	remove from stash
 
 
 For Making Remote Repositries:
