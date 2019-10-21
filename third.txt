@@ -2,3 +2,5 @@ this is your new file
 
 we are exploring it
 
+kearning smart git
+working online 
