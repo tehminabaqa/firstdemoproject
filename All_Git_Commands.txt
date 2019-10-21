@@ -1,0 +1,65 @@
+Basic Local Repositery Workflow:
+
+make directory for keeping repos
+Make further folder for keeping your work rep separate
+go into directory into terminal
+initialize repos in this dir
+
+1#git init	(this will crete hidden folder .git in your current workig directory)
+
+Make some files .txt or etc 
+
+check status
+2#git status
+
+add these files into staging area
+3#git add ist.txtf or
+#git add *.txt
+#git add
+
+commit these files 
+4#git commit -m "your msg like updaitng login etc etc"
+
+check log
+5#git log
+
+UnStaging Files:
+#git reset 		(remove files from staging area) 
+#git reset --hard 	(can remove changes in files if they are not committed
+
+
+
+Ignoring Files:
+make a file with extension .gitignore
+then add file path name extension or directory in above file and save 
+
+
+Brances Commands:in git brances are mandatory(master branch by default)
+#git branch
+#git branch -v
+#git branch dev
+#git checkout dev
+#git merge dev
+#git log dev master
+#git log dev..master
+#git log master..dev
+
+
+Stasing:
+#git stash			save local changes
+#git stash save <name>		save local changes with name
+#git stash list			show list of stashes 
+#git stash pop
+#git stash apply stashname
+
+
+For Making Remote Repositries:
+#git push			push changes to remote repo
+#git fetch			fetch changes from remote repo
+#git merge			mrge changes that was fetched
+#git pull			fetch and merge changes from remote repo
+#git remote -v			shows remote urls(where is your local repo placed on remote repo)
+#git remote show origin		shows details of origin
+#git remote add reponame	add remote repo in local repo
+
+
